@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgba(0, 0, 0, 0.5);
+}
+.menu{
+    width: 90%;
+    height: 50px;
+     background: rgba(233, 232, 232, 0.4);   
+     box-shadow: 1px 1px 0px rgba(15, 11, 11, 0.7);   
+     margin: 10px auto;
+}
+.menu ul{
+    padding: 0;
+    margin: 0px;
+    list-style: none;
+    width: 60%;
+    margin: auto;
+    overflow: hidden; 
+}
+.menu ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin-left: 0;
+    position: relative;
+  
+}
+
+.menu ul li a{
+   
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px 60px;
+    background-color: rgba(15, 11, 11, 0.1);
+    box-shadow: 1px 1px 0px rgba(15, 11, 11, 0.7);  
+    text-shadow: 1px 1px 1px #FFF;
+ }
+ .menu ul li a:hover{
+   
+    background: rgba(8, 0, 0, 0.3);
+    color: rgb(252, 252, 253);
+    text-shadow: none;
+ }
+ main{
+    width: 90%;
+    min-height: 700px;
+     background: rgba(233, 232, 232, 0.4);   
+     box-shadow: 1px 1px 0px rgba(15, 11, 11, 0.7);   
+     margin: 10px auto; 
+     padding: 0; 
+     padding-bottom:10px;  
+ }
+ main section{
+    width: 20%;
+    min-height: 490px;
+    float: left;
+     background: rgba(233, 232, 232, 0.4);   
+     box-shadow: 1px 1px 0px rgba(15, 11, 11, 0.7);   
+     margin: 8px 0px 10px 10px;  
+ }
+ main .middle{
+     width: 76%;
+     margin-top:10px;
+ }
+ section .navMain{
+     width: 100%;
+    min-height: 100px;
+     background: rgba(233, 232, 232, 0.4);   
+     box-shadow: 1px 1px 0px rgba(15, 11, 11, 0.7);   
+     margin: auto; 
+     margin-bottom: 10px;
+     padding: 0; 
+     padding-bottom:10px; 
+ }
+ .banner{
+     width: 80%;
+    height: 270px;
+     background: rgba(233, 232, 232, 0.4);   
+     margin: auto;
+     padding: 0; 
+    box-shadow: 0px 1px 0px 1px rgba(240, 157, 157, 0.7);  
+    border-radius: 20px/20px;
+    padding-top: 10px;
+    overflow: hidden;
+ }
+ #ban-text{
+     width: 100%;
+    min-height: 200px;
+     background: rgba(233, 232, 232, 0.4);   
+     margin: 10px auto;
+     box-shadow:none;
+     
+ }
+ #photo{
+     width: 100%;
+     height: 100%;
+ }
